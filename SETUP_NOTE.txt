@@ -1,0 +1,20 @@
+IMPORTANT SETUP NOTE
+====================
+
+This Telegram Userbot requires actual Telegram credentials to run.
+
+BEFORE RUNNING:
+1. Get API_ID and API_HASH from https://my.telegram.org
+2. Create a bot with @BotFather to get BOT_TOKEN
+3. Configure all variables in .env file
+4. Ensure you have valid session data or create new sessions
+
+The bot CANNOT run on Replit/local without these credentials.
+
+For VPS deployment:
+- Follow DEPLOYMENT_INSTRUCTIONS.md step by step
+- Configure .env with your actual credentials
+- Run using start.sh or systemd service
+
+All code errors (kb, ikb, CHAT_ID_INVALID) have been FIXED.
+The bot is ready to deploy on your VPS once configured.

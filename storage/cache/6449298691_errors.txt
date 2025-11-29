@@ -1,0 +1,15 @@
+**Error failed broadcast:**
+ChatWriteForbidden or lu dimute -1003237108187
+Forbidden or antispam grup aktif -1002665900957
+ChatWriteForbidden or lu dimute -1002446321185
+ChatWriteForbidden or lu dimute -1002863102323
+ChatWriteForbidden or lu dimute -1002241347239
+Forbidden or antispam grup aktif -1002252252850
+ChatWriteForbidden or lu dimute -1002289150885
+ChatWriteForbidden or lu dimute -1003112103086
+ChatWriteForbidden or lu dimute -1002428439448
+Telegram says: [400 Bad Request] - [400 TOPIC_CLOSED] (caused by "messages.SendMessage")
+ChatWriteForbidden or lu dimute -1003259508256
+PeerIdInvalid or lu bukan pengguna grup ini -5001274544
+PeerIdInvalid or lu bukan pengguna grup ini -5011534452
+ChatRestricted or ga bisa kirim teks (restricted) -1003190525764

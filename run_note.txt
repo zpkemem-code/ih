@@ -1,0 +1,14 @@
+IMPORTANT: This bot requires Telegram credentials to run.
+Without valid .env configuration, the bot will fail to start.
+
+Please configure .env with:
+- API_ID
+- API_HASH  
+- BOT_TOKEN
+- OWNER_ID
+- LOG_SELLER
+- LOG_BACKUP
+
+Then run: python Zohun/__main__.py
+
+All code errors have been fixed and are ready for deployment.

@@ -1,0 +1,15 @@
+[Unit]
+Description=Zohun Telegram Userbot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/rimbot
+Environment="PATH=/root/rimbot/venv/bin"
+ExecStart=/root/rimbot/venv/bin/python -m Zohun
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
