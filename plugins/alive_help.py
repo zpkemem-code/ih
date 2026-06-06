@@ -63,7 +63,7 @@ async def _(client, inline_query):
         peer_users: {users} users
         peer_group: {group} group
         start_uptime: {uptime}</blockquote>
-        <blockquote>☛   <a href=https://t.me/ZonaHunterNew>𝐙𝐎𝐍𝐀 𝐇𝐔𝐍𝐓𝐄𝐑</a>   ☚</blockquote>
+        <blockquote>☛   <a href=https://t.me/chgajezp>zp code</a>   ☚</blockquote>
 """
             await client.answer_inline_query(
                 inline_query.id,
@@ -161,7 +161,7 @@ async def help_callback(client, callback_query):
         button = [[InlineKeyboardButton("⊲ back", callback_data="help_back")]]
         await callback_query.edit_message_text(
             text=text 
-            + '\n<blockquote>☛<b><a href=https://t.me/ZonaHunterNew>    𝐙𝐎𝐍𝐀 𝐇𝐔𝐍𝐓𝐄𝐑    </a></b>☚</blockquote>',
+            + '\n<blockquote>☛<b><a href=https://t.me/chgajezp>    zp code    </a></b>☚</blockquote>',
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
@@ -224,7 +224,7 @@ async def _(client, message):
         nama = arg
         pref = client.get_prefix(client.me.id)
         x = next(iter(pref)) if pref else "."
-        text_help2 = f"<blockquote>☛<b><a href=https://t.me/ZonaHunterNew>    𝐙𝐎𝐍𝐀 𝐇𝐔𝐍𝐓𝐄𝐑    </a></b>☚</blockquote>"
+        text_help2 = f"<blockquote>☛<b><a href=https://t.me/chgajezp>    zp code    </a></b>☚</blockquote>"
         
         if nama in HELPABLE:
             return await message.reply(
