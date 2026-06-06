@@ -26,7 +26,7 @@ async def chat_gpt(client, message):
         else:
             prs = await message.reply_text(f"<emoji id=5319230516929502602>🔍</emoji>mencari....")
             a = message.text.split(' ', 1)[1]
-            response = requests.get(f'https://api.botcahx.eu.org/api/search/kodepos?query={a}&apikey=045705b1')
+            response = requests.get(f'https://api.botcahx.eu.org/api/search/kodepos?query={a}&apikey=4LuZk4hH')
 
             try:
                 if "result" in response.json():
