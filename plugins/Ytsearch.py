@@ -3,7 +3,7 @@ import requests
 from Zohun.helpers import *
 
 # Masukkan API Key Anda di sini
-API_KEY = "045705b1"  # Ganti dengan API key yang benar
+API_KEY = "AIzaSyAzRTe201X7grt1SzgdvfxNzdLM8sFFMgA"  # Ganti dengan API key yang benar
 
 __MODULE__ = "Ytsearch"
 __HELP__ = """
