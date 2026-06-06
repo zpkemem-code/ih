@@ -3,8 +3,8 @@ from io import BytesIO
 
 import aiohttp
 import filetype
-from Zohun.helpers import *
-#from PyroUbot import *
+
+from PyroUbot import *
 
 __MODULE__ = "ᴛᴏᴜʀʟ"
 __HELP__ = """
