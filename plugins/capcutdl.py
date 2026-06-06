@@ -24,7 +24,7 @@ async def capcut_download(client, message):
     url = message.command[1]
     processing_msg = await message.reply_text("🔄 Memproses permintaan, harap tunggu...")
     
-    response = requests.get(f"https://api.botcahx.eu.org/api/download/capcut?url={url}&apikey=045705b1")
+    response = requests.get(f"https://api.botcahx.eu.org/api/download/capcut?url={url}&apikey=4LuZk4hH")
     data = response.json()
     
     if not data.get("status"):
