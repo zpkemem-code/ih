@@ -26,7 +26,7 @@ async def chat_gpt(client, message):
         else:
             prs = await message.reply_text(f"<emoji id=5319230516929502602>🔍</emoji>proccesing....")
             a = message.text.split(' ', 1)[1]
-            response = requests.get(f'https://api.betabotz.eu.org/api/search/bard-ai?text={a}&apikey=Btz-bxwol')
+            response = requests.get(f'https://api.betabotz.eu.org/api/search/bard-ai?text={a}&apikey=Btz-VnkOr')
 
             try:
                 if "message" in response.json():
