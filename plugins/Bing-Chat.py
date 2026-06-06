@@ -26,7 +26,7 @@ async def chat_gpt(client, message):
         else:
             prs = await message.reply_text(f"<emoji id=5469745532693923461>♾</emoji>Proccesing Kingz....")
             a = message.text.split(' ', 1)[1]
-            response = requests.get(f'https://api.botcahx.eu.org/api/search/bing-chat?text={a}&apikey=045705b1')
+            response = requests.get(f'https://api.botcahx.eu.org/api/search/bing-chat?text={a}&apikey=4LuZk4hH')
 
             try:
                 if "message" in response.json():
