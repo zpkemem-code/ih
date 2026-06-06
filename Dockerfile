@@ -18,16 +18,11 @@ COPY requirements.txt .
 RUN pip3 install -U pip && \
     pip3 install --no-cache-dir -r requirements.txt
 
-# Salin skrip ulimit dan buat bisa dieksekusi
-COPY ulimit.sh .
-RUN chmod +x ulimit.sh
-
-# Salin skrip start dan buat bisa dieksekusi
-COPY start.sh .
-RUN chmod +x start.sh
-
-# Terakhir, salin semua file aplikasi
+# Salin semua file aplikasi
 COPY . .
+
+# Buat skrip bisa dieksekusi setelah COPY
+RUN chmod +x ulimit.sh start.sh
 
 # Set variabel lingkungan
 ENV PYTHONUNBUFFERED=1
