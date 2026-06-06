@@ -3,8 +3,8 @@ FROM python:3.10-slim
 # Update dan instal paket yang diperlukan
 RUN apt-get update -y && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
-    ffmpeg git neofetch apt-utils libmediainfo0v5 sqlite3 \
-    libgl1-mesa-glx libglib2.0-0 libxml2-dev libxslt-dev sudo && \
+    ffmpeg git apt-utils libmediainfo0v5 sqlite3 \
+    libgl1 libglib2.0-0 libxml2-dev libxslt-dev sudo && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
