@@ -80,7 +80,7 @@ RANDOM_PANTUN = [
 
 
 def gen_pantun(prompt):
-    genai.configure(api_key=API_GEMINI)
+    genai.configure(api_key=AIzaSyCTU_GwhayltLanCBMerh77UT9BMmaWGKc)
     aman = {
         "HATE": "BLOCK_NONE",
         "HARASSMENT": "BLOCK_NONE",
